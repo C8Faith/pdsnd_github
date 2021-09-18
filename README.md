@@ -32,7 +32,7 @@ In creating and completing this project, I spent countless hours mining the inte
 Some of the articles I found especially helpful or particularly enjoyed, and I owe them an additional dose of gratitude. Check them out!
 
 ###### _Understand Loops in Python with One Article_
-This [piece] (https://towardsdatascience.com/understand-loops-in-python-with-one-article-bace2ddba789) was enjoyable and informative and helped increase my understanding of loops.
+This [piece](https://towardsdatascience.com/understand-loops-in-python-with-one-article-bace2ddba789) was enjoyable and informative and helped increase my understanding of loops.
 
 ###### _StackOverflow_
 The stack community inspired me, helped me, saved me. The answers to all your questions live here. A great piece of unsolicited advice that I picked up: unless you are doing some sort of wild, brand new thing and breaking ground in the programming world, you most likely do not need to post questions on here. [Stackoverflow](https://stackoverflow.com) is where you cut your teeth learning **how to search** for answers.
