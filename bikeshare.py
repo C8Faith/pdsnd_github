@@ -6,7 +6,7 @@ import time
 pd.set_option('display.max_columns', 500)
 
 def get_city():
-    """Function takes user input to load csv, apply month and/or day filter, and returns resulting dataframe
+    """Takes user input to load csv, apply month and/or day filter, and returns resulting dataframe
 
     INPUT:
     (str) city: user input required for city
@@ -45,7 +45,7 @@ def get_city():
         return date_filts(df)
 
 def date_filts(df):
-    """Function to receive user input and apply a filter to dataframe for day and month
+    """Receives user input and applies a filter to dataframe for day and month
 
     INPUT:
     (str) month_filt: user input Y or N
@@ -95,7 +95,7 @@ as a filter. \nYou can enter January, February, March, April, May, or June:').lo
 
 
 def choose_day(df):
-    """Function to apply a weekday filter for dataframe based on user input
+    """Applies a weekday filter for dataframe based on user input
 
     INPUT:
     (str) day_filt: user input Y or N
@@ -267,7 +267,7 @@ def user_stats(df):
     print('-'*40)
 
 def display_raw(df):
-    """Function that takes user input to determine whether or not to display 5 rows of raw data. If user says yes,
+    """Takes user input to determine whether or not to display 5 rows of raw data. If user says yes,
     dataframe is sliced and displayed. Each time the user responds affirmitavely, 5 more rows are displayed.
     User input is evaluated by the first letter of their response.
 
