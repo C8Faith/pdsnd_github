@@ -1,11 +1,11 @@
 
-#### Date Created
+### Date Created
 Completed 8 September 2021
 
-#### Project Title
+### Project Title
 bikeshare.py
 
-#### Description
+### Description
 This project is a program written in python. The goal of the program is to receive user input to direct how to explore the data.
 
 There are three cities:
@@ -17,7 +17,7 @@ There are data logs with user information related to a bike sharing program in e
 
 This project was completed to satisfy the requirements of the Programming with Python Udacity course. More information can be found at their [website](http://udacity.com "Udacity website").
 
-#### Files used
+### Files used
 There are three Excel comma separated values files and one python file.
 1. new_york_city.csv
 2. washington.csv
@@ -26,7 +26,7 @@ There are three Excel comma separated values files and one python file.
 and
 1. bikeshare.py
 
-#### Credits
+### Credits
 In creating and completing this project, I spent countless hours mining the internet for information, as I'm learning all good programmers do.
 
 Some of the articles I found especially helpful or particularly enjoyed, and I owe them an additional dose of gratitude. Check them out!
