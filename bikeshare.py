@@ -1,12 +1,11 @@
 #import libraries and set display
 import pandas as pd
 import datetime as dt
-import numpy as np
 import time
 pd.set_option('display.max_columns', 500)
 
 def get_city():
-    """Function takes user input to load csv, apply month and/or day filter, and returns resulting dataframe
+    """Take user input to load csv. Option to apply month and/or day filter. Return dataframe.
 
     INPUT:
     (str) city: user input required for city
@@ -45,7 +44,7 @@ def get_city():
         return date_filts(df)
 
 def date_filts(df):
-    """Function to receive user input and apply a filter to dataframe for day and month
+    """Receive user input and apply filter to dataframe for day and month
 
     INPUT:
     (str) month_filt: user input Y or N
@@ -95,7 +94,7 @@ as a filter. \nYou can enter January, February, March, April, May, or June:').lo
 
 
 def choose_day(df):
-    """Function to apply a weekday filter for dataframe based on user input
+    """Apply a weekday filter for dataframe based on user input
 
     INPUT:
     (str) day_filt: user input Y or N
@@ -140,7 +139,7 @@ def choose_day(df):
         return choose_day(df)
 
 def time_stats(df):
-    """Displays statistics on the most frequent times of travel."""
+    """Display statistics on the most frequent times of travel."""
 
     print('\nCalculating The Travel Times...\n')
     start_time = time.time()
@@ -176,7 +175,7 @@ def time_stats(df):
     print('-'*40)
 
 def popular_trips(df):
-    """Displays the most popular routes of travel."""
+    """Display the most popular routes of travel."""
 
     print('\nLooking up the most popular routes...')
     start_time = time.time()
@@ -206,7 +205,7 @@ def popular_trips(df):
     print('-'*40)
 
 def trip_duration_stats(df):
-    """Displays statistics on the total and average trip duration."""
+    """Display statistics on the total and average trip duration."""
 
     print('\nCalculating Trip Duration...\n')
     start_time = time.time()
@@ -226,7 +225,7 @@ def trip_duration_stats(df):
     print('-'*40)
 
 def user_stats(df):
-    """Displays statistics on bikeshare users."""
+    """Display statistics on bikeshare users."""
 
     print('\nCalculating User Stats...\n')
     start_time = time.time()
@@ -267,9 +266,9 @@ def user_stats(df):
     print('-'*40)
 
 def display_raw(df):
-    """Function that takes user input to determine whether or not to display 5 rows of raw data. If user says yes,
-    dataframe is sliced and displayed. Each time the user responds affirmitavely, 5 more rows are displayed.
-    User input is evaluated by the first letter of their response.
+    """Take user input to determine whether or not to display 5 rows of raw data. If user says yes,
+    slice dataframe and display. Each time the user responds affirmitavely, display 5 more rows.
+    Evaluate user input by the first letter of their response.
 
     INPUT:
     (str) display: user input Y or N
