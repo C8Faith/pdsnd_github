@@ -1,7 +1,6 @@
 #import libraries and set display
 import pandas as pd
 import datetime as dt
-import numpy as np
 import time
 pd.set_option('display.max_columns', 500)
 
