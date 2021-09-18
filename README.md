@@ -18,7 +18,13 @@ There are data logs with user information related to a bike sharing program in e
 This project was completed to satisfy the requirements of the Programming with Python Udacity course. More information can be found at their [website](http://udacity.com "Udacity website").
 
 #### Files used
-Include the files used
+There are three Excel comma separated values files and one python file.
+1. new_york_city.csv
+2. washington.csv
+3. chicago.csv
+
+and 
+1. bikeshare.py
 
 #### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
